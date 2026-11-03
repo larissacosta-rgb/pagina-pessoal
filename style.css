@@ -1,0 +1,134 @@
+/* 1. CONFIGURAÇÕES GERAIS (Conteúdo e Textos) */
+/* Define a fonte e cor principal para os textos de toda a página[cite: 9] */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333; /* Cor cinza escuro para facilitar a leitura */
+    background-color: #f9f9f9; /* Fundo cinza muito claro */
+    margin: 0; /* Remove a margem padrão do navegador */
+}
+
+/* 2. CABEÇALHO E RODAPÉ */
+/* Diferencia visualmente estas áreas com fundo escuro e texto claro[cite: 9, 10] */
+header, footer {
+    background-color: #2E86AB; /* O seu tom de azul da atividade anterior! */
+    color: #f5f5f5;
+    text-align: center;
+    padding: 20px; /* Cria um espaço interno (respiro) */
+}
+
+/* Personaliza os títulos h1 e h2[cite: 9] */
+header h1 {
+    margin-bottom: 5px;
+    font-size: 2.5em; /* Aumenta o tamanho da fonte */
+}
+
+h2 {
+    color: #2E86AB; /* Títulos das secções a azul[cite: 9] */
+    border-bottom: 2px solid #ccc; /* Linha subtil debaixo do título */
+    padding-bottom: 5px;
+}
+
+/* 3. NAVEGAÇÃO E LINKS */
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Retira as 'bolinhas' da lista e alinha os itens lado a lado[cite: 9] */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px; /* Espaço entre os links */
+}
+
+/* Personaliza a aparência dos links */
+nav a {
+    color: #ffffff;
+    text-decoration: none; /* Retira o sublinhado padrão */
+    font-weight: bold;
+}
+
+/* Pseudoclasse :hover - Muda a cor quando passa o rato por cima[cite: 10] */
+nav a:hover {
+    color: #F2A900; /* Cor amarela para dar destaque */
+}
+
+/* 4. CONTEÚDO PRINCIPAL (Espaçamentos e Organização) */
+main {
+    max-width: 800px; /* Limita a largura para a página não ficar demasiado esticada */
+    margin: 20px auto; /* Centra o conteúdo no ecrã (margin)[cite: 10] */
+    padding: 0 20px;
+}
+
+/* Seletor de Classe (.destaque) - Requisito obrigatório[cite: 9, 10] */
+/* Define fundo e borda para uma secção específica[cite: 10] */
+.destaque {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 15px; /* Espaço interno[cite: 10] */
+    border-radius: 8px; /* Cantos arredondados */
+    margin-bottom: 20px; /* Espaço externo inferior (afasta das outras secções)[cite: 10] */
+}
+
+/* 5. IMAGEM */
+/* Define dimensões e borda da fotografia[cite: 9] */
+img {
+    width: 200px; /* Largura fixa[cite: 9] */
+    height: auto; /* Mantém a proporção[cite: 9] */
+    border: 3px solid #2E86AB; /* Borda azul[cite: 9] */
+    border-radius: 50%; /* Torna a imagem perfeitamente redonda![cite: 9] */
+    display: block;
+    margin: 20px auto; /* Centra a imagem */
+}
+
+/* 6. FORMULÁRIO DE CONTACTO */
+/* Personaliza os campos e melhora a apresentação[cite: 10] */
+fieldset {
+    border: 2px solid #2E86AB; /* Diferencia visualmente o formulário[cite: 10] */
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+legend {
+    font-weight: bold;
+    color: #2E86AB;
+}
+
+/* Espaçamento e bordas nos inputs e textarea[cite: 10] */
+input[type="text"], 
+input[type="email"], 
+textarea {
+    width: 100%; /* Ocupam a largura toda disponível */
+    padding: 10px; /* Espaço interno para não ficar apertado[cite: 10] */
+    margin-top: 5px; /* Afasta o campo da etiqueta (label)[cite: 10] */
+    margin-bottom: 15px; /* Afasta do próximo campo[cite: 10] */
+    border: 1px solid #ccc; /* Borda cinza suave[cite: 10] */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Botões do formulário */
+button {
+    background-color: #2E86AB;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button[type="reset"] {
+    background-color: #666; /* Botão limpar fica cinzento para diferenciar */
+}
+
+button:hover {
+    opacity: 0.8; /* Efeito ao passar o rato nos botões */
+}
