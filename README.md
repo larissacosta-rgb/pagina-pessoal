@@ -1,3 +1,5 @@
-# pagina-pessoal
-<img width="1496" height="777" alt="Formulário Página Pessoal" src="https://github.com/user-attachments/assets/58ce8bf5-c7e4-437a-b04c-2c64205dcd86" />
-<img width="1510" height="767" alt="print-css" src="https://github.com/user-attachments/assets/7440d2ca-ff0c-48b7-be65-e23e8319d9ae" />
+# Blog Pessoal - Larissa Costa
+Página pessoal atualizada com estrutura em CSS Grid e seção de tecnologias e interesses organizada com Grid Layout e Flexbox.
+## Resultado Final
+![Captura de tela da página pessoal](<img width="1920" height="2687" alt="grid-flexbox" src="https://github.com/user-attachments/assets/4efa8b00-dadf-4e6b-a314-c6f7dced92d0" />
+)
