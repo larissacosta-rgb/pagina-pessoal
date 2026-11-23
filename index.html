@@ -28,11 +28,14 @@
         <!-- Seção 1: Apresentação -->
         <section class="destaque">
             <h2>Apresentação</h2>
-            <p>Olá, seja bem-vindo(a) à minha página!</p>
-            <p>Me chamo Larissa Costa. Sou formada em Gestão Ambiental com especialização em Planejamento e Gestão de Áreas Naturais Protegidas. Durante a pandemia, descobri um novo hobby e um grande interesse pela área de design gráfico.</p>
-            <p>Atualmente, estou cursando o Técnico em Informática para Internet para aprimorar meus conhecimentos em tecnologia e aprender a desenvolver e implementar páginas Web. Hoje, além do meu trabalho fixo, presto serviços na área de design gráfico e produção de materiais impressos personalizados.</p>
-            
-            <img src="img/foto.jpg" alt="Foto de perfil de Larissa Costa">
+            <div class="apresentacao-conteudo">
+                <div class="apresentacao-texto">
+                    <p>Olá, seja bem-vindo(a) à minha página!</p>
+                    <p>Me chamo Larissa Costa. Sou formada em Gestão Ambiental com especialização em Planejamento e Gestão de Áreas Naturais Protegidas. Durante a pandemia, descobri um novo hobby e um grande interesse pela área de design gráfico.</p>
+                    <p>Atualmente, estou cursando o Técnico em Informática para Internet para aprimorar meus conhecimentos em tecnologia e aprender a desenvolver e implementar páginas Web. Hoje, além do meu trabalho fixo, presto serviços na área de design gráfico e produção de materiais impressos personalizados.</p>
+                </div>
+                <img src="img/foto.jpg" alt="Foto de perfil de Larissa Costa">
+            </div>
         </section>
 
         <!-- Seção 2: Tecnologias e Interesses -->
@@ -41,7 +44,6 @@
             <p class="descricao-secao">Tecnologias, ferramentas e áreas que estudo e fazem parte dos meus projetos.</p>
 
             <div class="grid-cards">
-                
                 <!-- Cartão 1 -->
                 <article class="card">
                     <div class="card-topo">
@@ -65,7 +67,7 @@
                         <h3>Microsoft Excel</h3>
                     </div>
                     <p class="card-texto">
-                        Utilização diária para organização, controle e análise de dados.
+                        Utilização diária para organização, controle e análise de dados, com aprimoramento contínuo em curso na área.
                     </p>
                     <div class="card-tags">
                         <span class="tag">Planilhas</span>
@@ -81,12 +83,12 @@
                         <h3>Design Gráfico e Papelaria</h3>
                     </div>
                     <p class="card-texto">
-                        Desenvolvimento de materiais digitais e impressos personalizados na Conectarium Design.
+                        Criação de identidade visual e produção de materiais impressos personalizados na Conectarium Design.
                     </p>
                     <div class="card-tags">
                         <span class="tag">Identidade Visual</span>
                         <span class="tag">Personalizados</span>
-                        <span class="tag">Conectarium</span>
+                        <span class="tag">GitHub</span>
                     </div>
                 </article>
 
@@ -97,7 +99,7 @@
                         <h3>Esportes</h3>
                     </div>
                     <p class="card-texto">
-                        Prática de atividades esportivas em quadra e na areia para manter a saúde e o bem-estar.
+                        Prática regular de atividades esportivas em quadra e na areia para manter a saúde, o equilíbrio e o bem-estar.
                     </p>
                     <div class="card-tags">
                         <span class="tag">Futsal</span>
@@ -105,12 +107,11 @@
                         <span class="tag">Bem-estar</span>
                     </div>
                 </article>
-
             </div>
         </section>
 
         <!-- Seção 3: Hobbies e Interesses -->
-        <section>
+        <section class="secao-lista">
             <h2>Hobbies e Interesses</h2>
             <ul>
                 <li>Jogar futsal e vôlei de areia</li>
@@ -123,35 +124,34 @@
         <!-- Seção 4: Contato -->
         <section>
             <h2>Entre em contato</h2>
-            
             <form action="#" method="post">
                 <fieldset>
                     <legend>Envie sua mensagem</legend>
                     
                     <p>
-                        <label for="nome_contato">Nome:</label><br>
+                        <label for="nome_contato">Nome:</label>
                         <input type="text" id="nome_contato" name="nome_contato">
                     </p>
 
                     <p>
-                        <label for="email_contato">E-mail:</label><br>
+                        <label for="email_contato">E-mail:</label>
                         <input type="email" id="email_contato" name="email_contato" required>
                     </p>
 
                     <p>
-                        <label for="assunto_contato">Assunto:</label><br>
+                        <label for="assunto_contato">Assunto:</label>
                         <input type="text" id="assunto_contato" name="assunto_contato">
                     </p>
 
                     <p>
-                        <label for="mensagem_contato">Mensagem:</label><br>
-                        <textarea id="mensagem_contato" name="mensagem_contato" rows="4" cols="50"></textarea>
+                        <label for="mensagem_contato">Mensagem:</label>
+                        <textarea id="mensagem_contato" name="mensagem_contato" rows="4"></textarea>
                     </p>
 
-                    <p>
+                    <div class="form-botoes">
                         <button type="submit">Enviar</button>
                         <button type="reset">Limpar</button>
-                    </p>
+                    </div>
                 </fieldset>
             </form>
         </section>
