@@ -35,7 +35,81 @@
             <img src="img/foto.jpg" alt="Foto de perfil de Larissa Costa">
         </section>
 
-        <!-- Seção 2: Hobbies e Interesses -->
+        <!-- Seção 2: Tecnologias e Interesses -->
+        <section class="secao-cards">
+            <h2>Tecnologias e Interesses</h2>
+            <p class="descricao-secao">Tecnologias, ferramentas e áreas que estudo e fazem parte dos meus projetos.</p>
+
+            <div class="grid-cards">
+                
+                <!-- Cartão 1 -->
+                <article class="card">
+                    <div class="card-topo">
+                        <span class="card-icone">&lt;/&gt;</span>
+                        <h3>Desenvolvimento Web</h3>
+                    </div>
+                    <p class="card-texto">
+                        Criação e estruturação semântica de páginas Web responsivas e bem organizadas.
+                    </p>
+                    <div class="card-tags">
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                        <span class="tag">Flexbox &amp; Grid</span>
+                    </div>
+                </article>
+
+                <!-- Cartão 2 -->
+                <article class="card">
+                    <div class="card-topo">
+                        <span class="card-icone">XLS</span>
+                        <h3>Microsoft Excel</h3>
+                    </div>
+                    <p class="card-texto">
+                        Utilização diária para organização, controle e análise de dados.
+                    </p>
+                    <div class="card-tags">
+                        <span class="tag">Planilhas</span>
+                        <span class="tag">Fórmulas</span>
+                        <span class="tag">Análise de Dados</span>
+                    </div>
+                </article>
+
+                <!-- Cartão 3 -->
+                <article class="card">
+                    <div class="card-topo">
+                        <span class="card-icone">UI</span>
+                        <h3>Design Gráfico e Papelaria</h3>
+                    </div>
+                    <p class="card-texto">
+                        Desenvolvimento de materiais digitais e impressos personalizados na Conectarium Design.
+                    </p>
+                    <div class="card-tags">
+                        <span class="tag">Identidade Visual</span>
+                        <span class="tag">Personalizados</span>
+                        <span class="tag">Conectarium</span>
+                    </div>
+                </article>
+
+                <!-- Cartão 4 -->
+                <article class="card">
+                    <div class="card-topo">
+                        <span class="card-icone">★</span>
+                        <h3>Esportes</h3>
+                    </div>
+                    <p class="card-texto">
+                        Prática de atividades esportivas em quadra e na areia para manter a saúde e o bem-estar.
+                    </p>
+                    <div class="card-tags">
+                        <span class="tag">Futsal</span>
+                        <span class="tag">Vôlei de Areia</span>
+                        <span class="tag">Bem-estar</span>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Seção 3: Hobbies e Interesses -->
         <section>
             <h2>Hobbies e Interesses</h2>
             <ul>
@@ -45,40 +119,35 @@
                 <li>Admirar e estar em contato com a natureza</li>
             </ul>
         </section>
-        <!-- Nova Seção: Contato (Atividade Formulário) -->
+
+        <!-- Seção 4: Contato -->
         <section>
             <h2>Entre em contato</h2>
             
             <form action="#" method="post">
-                <!-- Agrupando os campos -->
                 <fieldset>
                     <legend>Envie sua mensagem</legend>
                     
-                    <!-- Campo Nome -->
                     <p>
                         <label for="nome_contato">Nome:</label><br>
                         <input type="text" id="nome_contato" name="nome_contato">
                     </p>
 
-                    <!-- Campo E-mail com atributo required (obrigatório) -->
                     <p>
                         <label for="email_contato">E-mail:</label><br>
                         <input type="email" id="email_contato" name="email_contato" required>
                     </p>
 
-                    <!-- Campo Assunto -->
                     <p>
                         <label for="assunto_contato">Assunto:</label><br>
                         <input type="text" id="assunto_contato" name="assunto_contato">
                     </p>
 
-                    <!-- Campo Mensagem (Textarea para várias linhas) -->
                     <p>
                         <label for="mensagem_contato">Mensagem:</label><br>
                         <textarea id="mensagem_contato" name="mensagem_contato" rows="4" cols="50"></textarea>
                     </p>
 
-                    <!-- Botões de Enviar e Limpar -->
                     <p>
                         <button type="submit">Enviar</button>
                         <button type="reset">Limpar</button>
